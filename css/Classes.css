@@ -1,0 +1,514 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.background {
+  width: 1440px;
+  height: 4396px;
+  background-color: #060000;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Navigation Section */
+
+nav {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+/* Brand-logo and Navbar */
+#navbar {
+  position: absolute;
+  top: 32px;
+  /* right: 56px; */
+  background-color: transparent;
+  /* border: 1px solid black; */
+  width: 1328px;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+#logo {
+  display: flex;
+  align-items: center;
+}
+#brand-logo {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 16px;
+  border: 3.5px solid #f3f2f1;
+}
+
+.brand-name {
+  font-family: "Work Sans", sans-serif;
+  color: #f3f2f1;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+#brand-logo:hover {
+  border: 3.5px solid transparent;
+  border-image: linear-gradient(90deg, #fe572e 0%, #ff4c80 100%);
+  border-image-slice: 1;
+}
+
+.nav-end {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 48px;
+}
+
+.nav-end a {
+  color: #f3f2f1;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#Classes {
+  font-weight: 400;
+  background: linear-gradient(90deg, #fe572e 0%, #ff4c80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#training:hover {
+  background: linear-gradient(90deg, #fe572e 0%, #ff4c80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#plans:hover {
+  background: linear-gradient(90deg, #fe572e 0%, #ff4c80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.classes-to-offer {
+  color: #f3f2f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  left: 433px;
+  top: 261px;
+  /* border: 1px solid red; */
+}
+
+.heading {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.we-offer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  background: linear-gradient(90deg, #fe572e 0%, #ff4c80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Cards Section */
+.box {
+  width: 546px;
+  height: 553px;
+  /* border: 2px solid red; */
+  position: relative;
+}
+
+.pic {
+  width: 546px;
+}
+
+.sm-box2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 65.82%;
+  bottom: 0%;
+}
+
+.ex-type {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  background: -webkit-linear-gradient(90deg, #fe572e 0%, #ff4c80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.category {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #232a35;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.film {
+  width: 546px;
+  height: 364px;
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+}
+
+.box:hover .film {
+  opacity: 0;
+}
+
+.box:hover .sm-box2 {
+  background-color: #232a35;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 65.82%;
+  bottom: 0%;
+}
+
+.box:hover .category {
+  color: #ffffff;
+}
+
+.big-box {
+  display: flex;
+  justify-content: space-between;
+  width: 1184px;
+  /* position: relative;
+      left: 128px; */
+}
+
+.big-box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+  /* border: 2px solid blue; */
+  /* align-items: flex-start;
+      justify-content: center; */
+}
+
+.dabba {
+  display: flex;
+  flex-direction: column;
+  /* gap: 48px; */
+  /* border: 2px solid green; */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 463px;
+  left: 128px;
+}
+
+/* Call to action section */
+
+.cta-box {
+  height: 489px;
+  position: absolute;
+  top: 3220px;
+  background-color: white;
+  width: 1440px;
+}
+
+.cta {
+  position: absolute;
+  left: 128px;
+  top: 128px;
+
+  /* color: #f3f2f1; */
+  /* border: 1px solid red; */
+}
+
+.cta-btn {
+  /* border: 1px solid blue; */
+  /* height: 100px; */
+  margin-top: 56px;
+  padding: 24px 0px;
+}
+
+.primary-btn {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(90deg, #fe572e 0%, #ff4c80 100%);
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 24px 48px;
+}
+
+.primary-btn:hover {
+  background: #fe572e;
+}
+
+/* Footer Section */
+
+footer {
+  height: 687px;
+  width: 100%;
+  background-color: #060000;
+  position: absolute;
+  /* width: 1441px; */
+  /* height: 687px; */
+  /* left: 0px; */
+  top: 3709px;
+  /* z-index: -1; */
+}
+
+/* Brand-logo */
+
+.brands {
+  width: 440px;
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 128px;
+  left: 56px;
+}
+#logos {
+  display: flex;
+  align-items: center;
+}
+#brand-logos {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 16px;
+  border: 3.5px solid #f3f2f1;
+}
+
+.brand-names {
+  font-family: "Work Sans", sans-serif;
+  color: #f3f2f1;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+#brand-logos:hover {
+  border-image: linear-gradient(90deg, #fe572e 0%, #ff4c80 100%);
+  border-image-slice: 1;
+}
+
+/* Email and phone  */
+
+.email-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+}
+
+.email-icon {
+  width: 20px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+.email {
+  color: #f3f2f1;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 30px;
+}
+
+.phone-icon {
+  width: 20px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.call {
+  color: #f3f2f1;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 30px;
+}
+
+.contact-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+/* Social-icons */
+
+.social-icons {
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+}
+
+.icons {
+  cursor: pointer;
+  /* height: 24px; */
+  width: 32px;
+}
+
+/* Address */
+
+.address {
+  /* border: 2px solid red; */
+}
+
+#address-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 72px;
+  position: absolute;
+  left: 128px;
+  top: 253px;
+}
+
+/* Working Schedule */
+
+.working {
+  position: absolute;
+  top: 253px;
+  right: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+.working-hours {
+  color: #f3f2f1;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: auto;
+}
+
+.line {
+  position: absolute;
+  top: 89.1%;
+  left: 62px;
+}
+
+/* Copyright things */
+
+.copyright {
+  background-color: black;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid #fe572e; */
+  position: relative;
+  top: 90.5%;
+}
+
+.end {
+  color: #f3f2f1;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+/* Upward button */
+
+.upward {
+  display: inline-block;
+  position: absolute;
+  bottom: 148px;
+  right: 56px;
+  cursor: pointer;
+}
+
+.upward .hovering {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.upward:hover .hovering {
+  display: inline;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  z-index: 99; /* Make sure it does not overlap */
+}
