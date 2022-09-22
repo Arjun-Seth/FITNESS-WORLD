@@ -146,7 +146,7 @@ nav {
   padding: 8px 12px;
   border: none;
   width: 390px;
-  background-color: #261F22;
+  background-color: #261f22;
   border: none;
   outline: none;
   margin-top: 6px;
@@ -167,7 +167,7 @@ nav {
   /* border: 1px solid green; */
 }
 
-#Mobile-No {
+#phoneMob {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -179,7 +179,7 @@ nav {
   padding: 8px 11px;
   border: none;
   width: 390px;
-  background-color: #261F22;
+  background-color: #261f22;
 
   border: none;
   outline: none;
@@ -218,8 +218,8 @@ nav {
   padding: 8px 12px;
   border: none;
   width: 390px;
-  background-color: #261F22;
-  
+  background-color: #261f22;
+
   border: none;
   outline: none;
   margin-top: 6px;
@@ -251,7 +251,7 @@ nav {
   padding: 8px 12px;
   border: none;
   width: 390px;
-  background-color: #261F22;
+  background-color: #261f22;
   border: none;
   outline: none;
   margin-top: 6px;
@@ -292,17 +292,17 @@ nav {
   display: inline-block;
 }
 
-#gender{
+#gender {
   display: inline-block;
   /* margin-right: 60px; */
 }
 
-#choose-plan{
+#choose-plan {
   display: flex;
   gap: 16px;
 }
 
-.choose-plan{
+.choose-plan {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -317,7 +317,7 @@ nav {
   /* display: inline-block; */
 }
 
-.plan{
+.plan {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -330,13 +330,13 @@ nav {
   /* display: inline-block; */
 }
 
-.plan-type{
+.plan-type {
   /* border: 1px solid blue; */
   display: inline-block;
   margin-top: 22px;
 }
 
-.gender-choosePlan{
+.gender-choosePlan {
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
@@ -358,6 +358,7 @@ nav {
   line-height: 30px;
   color: #ffffff;
   padding: 16px 48px;
+  cursor: pointer;
 }
 
 .primary-btn:hover {
@@ -493,7 +494,6 @@ footer {
 }
 
 .icons {
-  cursor: pointer;
   /* height: 24px; */
   width: 32px;
 }
@@ -564,5 +564,3 @@ footer {
   font-weight: 700;
   line-height: 30px;
 }
-
-
