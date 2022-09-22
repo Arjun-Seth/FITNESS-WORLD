@@ -1,4 +1,3 @@
-
 <?php
 if(isset($_POST['submit'])){
 $Name = "Username: ".$_POST['Name']."
@@ -32,8 +31,8 @@ fclose($file);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarion Form</title>
-    <link rel="stylesheet" href="form.css">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/form.css">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Merriweather+Sans:wght@300;400&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@500&family=Roboto:wght@300;400;700&family=Vujahday+Script&family=Work+Sans:wght@700&display=swap"
         rel="stylesheet">
